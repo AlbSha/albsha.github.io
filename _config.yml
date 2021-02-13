@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Alban Shahaj
-title: Software developer and data analyst
+title: Software Developer and Data Analyst
 email: shhkalb@gmail.com
 website: https://albsha.github.io
 
@@ -46,11 +46,15 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Alban and I'm a Software developer and Data analyst. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Alban and I'm a software developer and data analyst.
+  My main role is to develop and maintain mainly client side applications (local and web apps) used for collecting data.
+  I am also responsible for all the documentation, support and training provided to the various colleagues, external stackeholders and data providers.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I started my career as software developer since 2017 just after my graduation in computer science.
+
+  What I like more is: develop software and try to achive interesting goals, travel and discover new cultures as well as being able to talk with animals in a comprehensible language (who wants to help me :D).
 
 content:
   - title: Projects # Title for the section
