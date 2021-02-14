@@ -48,11 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Alban and I'm a software developer and data analyst.
-  My main role is to develop and maintain mainly client side applications (local and web apps) used for collecting data.
-  I am also responsible for all the documentation, support and training provided to the various colleagues, external stackeholders and data providers.
-
-  I started my career as software developer since 2017 just after my graduation in computer science.
+  Hi, my name's Alban and I'm a software developer and data analyst. My main role is to develop and maintain mainly client side applications (local and web apps) used for collecting data. I am also responsible for all the documentation, support and training provided to the various colleagues, external stackeholders and data providers. I started my career as software developer since 2017 just after my graduation in computer science.
 
   What I like more is: develop software and try to achive interesting goals, travel and discover new cultures as well as being able to talk with animals in a comprehensible language (who wants to help me :D).
 
