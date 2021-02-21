@@ -8,11 +8,11 @@ version: 2
 # Personal info
 name: Alban Shahaj
 title: Software Developer and Data Analyst
-email: shhkalb@gmail.com
+email: a.shahaj@bv-tech.it
 website: https://albsha.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 twitter_username: albyshaka
@@ -30,7 +30,7 @@ linkedin_username: alban-shahajoop
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
+# additional_links:
 # - title: another link
 #  icon: ont awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #  url: Link url (eg. https://google.com)
@@ -48,57 +48,65 @@ additional_links:
 # about_title: About Me
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Alban and I'm a software developer and data analyst. My main role is to develop and maintain mainly client side applications (local and web apps) used for collecting data. I am also responsible for all the documentation, support and training provided to the various colleagues, external stackeholders and data providers. I started my career as software developer since 2017 just after my graduation in computer science.
+  Hi, my name's Alban and I'm a software developer and data analyst. My main role is to develop and maintain client side applications (local and web apps) used for collecting data. I am also responsible for all the documentation, support and training provided to the various colleagues, external stackeholders and data providers. I started my career as software developer since 2017 just after my graduation in computer science.
 
-  What I like more is: develop software and try to achive interesting goals, travel and discover new cultures as well as being able to talk with animals in a comprehensible language (who wants to help me :D).
+  What I like the most is: develop software and try to achive interesting goals, travel and discover new cultures as well as being able to talk with animals in a comprehensible language (who wants to help me?).
 
 content:
-  - title: Software developer and data analyst # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Bv Tech s.r.l
-        link: https://www.bv-tech.it/it/
-        # link_text: boringcompany.com
-        sub_title: Software developer and data analyst
-        caption: March 2019 - Present
-        quote: >
-          My main role is to work as consultant at the European Food Safety Authority (European organisation based in Parma, Italy). Here I am working for the Data department in which, my main role, is to develop, maintain and present client side application used from internal and external users. In addition I am also responsible for the maintainance of the various projects and the release of documentations and trainings.
+      - layout: top-middle
+        sub_title: FoodEx2 Smart Coding App (front-end)
+        link: https://github.com/openefsa/foodex2-sca-frontend
+        link_text: foodex2-sca-openefsa
         description: | # this will include new lines to allow paragraphs
-          I am mainly a backend developer with few knowledge on the frontend implementation.
+          FoodEx2 Smart Coding application front-end aims to simplify coding in the FoodEx2 system in a faster and easier way. The app proposes the food terms related with the food description given in input. The front-end uses lit-element  base class for enabling creation of web components which can be re-used in other projects.
+
+      - layout: top-middle
+        sub_title: FoodEx2 Smart Coding App (back-end)
+        link: https://github.com/openefsa/foodex2-sca-backend
+        link_text: foodex2-sca-openefsa
+        description: | # this will include new lines to allow paragraphs
+          FoodEx2 Smart Coding application back-end exposes the various functionalities provided by the trained simple convutional neural network models (built with Spacy) through python Flask.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
+      - layout: top-middle
         sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        link: https://cdl-info.unipr.it/it
+        link_text: UniPR, Parma, Italy
+        caption: 2013 - 2017
+
+  - title: Others
+    layout: list
+    content:
+      - layout: left
+        sub_title: Certificates
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          - SAS begginer
+      - layout: left
+        sub_title: Webinars
+        description: | # this will include new lines to allow paragraphs
+          - [Webinar - FoodEx2 Catalogue browser part1](https://www.youtube.com/watch?v=yicnB90Lx9s)
+          - [Webinar - FoodEx2 Catalogue browser part2](https://www.youtube.com/watch?v=xj9donllXgA)
+          - [Webinar - TSE data reporting tool](https://www.youtube.com/watch?v=3_eqMIwkvv4)
+      - layout: left
+        sub_title: Publications
+        description: | # this will include new lines to allow paragraphs
+          - [EFSA Catalogue Browser User Guide](https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/sp.efsa.2019.EN-1726)
+          - [EFSA FoodEx2 Interpreting and Checking Tool user guide](https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/sp.efsa.2019.EN-1727)
+          - [Guidance for reporting 2021 surveillance data on Transmissible Spongiform Encephalopathies (TSE)](https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/sp.efsa.2021.EN-6441)
+      
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: albsha/albsha.github.io
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
