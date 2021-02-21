@@ -8,8 +8,7 @@ version: 2
 # Personal info
 name: Alban Shahaj
 title: Software Developer and Data Analyst
-email: a.shahaj@bv-tech.it
-website: https://albsha.github.io
+email: a.shahaj@bv-tech.it, alban.shahaj@ext.efsa.europa.eu
 
 # Dark Mode (true/false/never)
 darkmode: never
